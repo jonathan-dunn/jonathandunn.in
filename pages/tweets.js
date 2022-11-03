@@ -5,7 +5,7 @@ import { getTweets } from "@/lib/twitter";
 export default function Tweets({ tweets }) {
   return (
     <Container
-      title="Tweets – Manu Arora"
+      title="Tweets – Jonathan Dunn"
       description="A collection of tweets that make me laugh, make me think and make me learn."
     >
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
@@ -54,7 +54,7 @@ export async function getStaticProps() {
 // export default function Tweets({ tweets }) {
 //   return (
 //     <Container
-//       title="Tweets – Manu Arora"
+//       title="Tweets – Jonathan Dunn"
 //       description="A collection of tweets that make me laugh, make me think and make me learn."
 //     >
 //       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">

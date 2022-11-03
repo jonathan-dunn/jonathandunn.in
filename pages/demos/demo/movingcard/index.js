@@ -37,7 +37,7 @@ export default function MovingCard() {
                 className="border-2 rounded-full border-gray-200"
               />
               <div className="footer-text flex flex-col flex-nowrap">
-                <p className="text-gray-100 font-bold ml-6">Manu Arora</p>
+                <p className="text-gray-100 font-bold ml-6">Jonathan Dunn</p>
                 <p className="text-gray-200 ml-6">Software Developer</p>
               </div>
             </div>

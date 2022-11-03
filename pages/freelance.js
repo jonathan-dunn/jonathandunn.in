@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Freelance() {
   return (
     <Container
-      title="Freelancing – Manu Arora"
+      title="Freelancing – Jonathan Dunn"
       description="Freelance projects and SaaS application that I've developed."
     >
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-4 w-full">

@@ -5,7 +5,7 @@ import Words from "@/components/words";
 export default function WordsPage({ fallbackData }) {
   return (
     <Container
-      title="Words – Manu Arora"
+      title="Words – Jonathan Dunn"
       description="Sign in and write anything for / about me. Share your knowledge, wisdom or make a joke. "
     >
       <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16 w-full">

@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 export default function projects() {
   return (
     <Container
-      title="Projects – Manu Arora"
+      title="Projects – Jonathan Dunn"
       description="Projects that I've built from scratch, upcoming projects, learned from courses and projects that I'm proud of."
       image="/avatar.jpg"
     >

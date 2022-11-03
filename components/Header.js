@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { LinkPreview } from "@/components/LinkPreview";
+import Styles from "../styles/Gradient.module.css"
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -30,9 +31,12 @@ const Header = () => {
   return (
     <div className="flex flex-col md:flex-row justify-between items-start md:space-x-14  w-full mb-10">
       <div className="flex md:w-3/4 flex-col mt-6">
-        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-2 text-black dark:text-white">
-          Manu Arora
+        
+        <h1 className={`text-6xl font-extrabold gradient-text ${Styles.gradientText}`}>
+          Jonathan Dunn
         </h1>
+
+        
 
         <div className="relative leading-7 items-center flex-wrap text-zinc-700 dark:text-zinc-400 mb-5">
           Building
@@ -40,9 +44,9 @@ const Header = () => {
             className={
               "inline-block px-1 font-bold bg-clip-text text-transparent bg-gradient-to-r from-zinc-900 to-zinc-700 dark:from-zinc-300 dark:to-zinc-100"
             }
-            url="https://algochurn.com"
+            url="http://telus.com"
           >
-            Algochurn
+            TMF APIs
           </LinkPreview>
           other
           <span
@@ -65,10 +69,10 @@ const Header = () => {
                 >
                   <div className="bg-grid-slate-100 dark:bg-grid-zinc-700/30 absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,white,transparent)]"></div>
                   <motion.p variants={itemA} className="font-normal py-3">
-                    Founder{" "}
+                    Personal site{" "}
                     <Hyperlink
-                      text="@placeholdertech"
-                      link="https://placeholdertech.in"
+                      text="@jonathandunn"
+                      link="https://jonathandunn.in"
                     />{" "}
                     and{" "}
                     <Hyperlink
@@ -88,32 +92,6 @@ const Header = () => {
                       link="https://mentorcruise.com/mentor/manuarora/"
                     />
                   </motion.p>
-                  <motion.p variants={itemA} className="font-normal py-3">
-                    Helping front-end developers{" "}
-                    <Hyperlink text="@algochurn" link="https://algochurn.com" />
-                  </motion.p>
-                  <motion.p variants={itemA} className="font-normal py-3">
-                    Web templates and components{" "}
-                    <Hyperlink
-                      text="@tailwindmasterkit"
-                      link="https://tailwindmasterkit.com"
-                    />
-                  </motion.p>
-                  <motion.p variants={itemA} className="font-normal py-3">
-                    Blogs{" "}
-                    <Hyperlink
-                      text="@freecodecamp"
-                      link="https://www.freecodecamp.org/news/author/manu/"
-                    />
-                  </motion.p>
-                  <motion.p variants={itemA} className="font-normal py-3">
-                    Tech videos and snippets{" "}
-                    <Hyperlink
-                      text="@youtube"
-                      link="https://www.youtube.com/channel/UC7MQDjVfjEPkHMe1lZGkDRA"
-                    />
-                  </motion.p>
-
                   <div className="absolute inset-x-0 -bottom-px h-px bg-slate-900/[0.1] [mask-image:linear-gradient(to_right,transparent,white_4rem,white_calc(100%-4rem),transparent)]">
                     <div className=" w-full flex-none blur-[1px] h-px [background-image:linear-gradient(90deg,rgba(56,189,248,0)_0%,#0EA5E9_32.29%,rgba(236,72,153,0.3)_67.19%,rgba(236,72,153,0)_100%)]"></div>
                   </div>

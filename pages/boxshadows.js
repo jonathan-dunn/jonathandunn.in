@@ -265,7 +265,7 @@ const Metadata = () => {
       />
       <link rel="canonical" href={`https://manuarora.in${router.asPath}`} />
       <meta property="og:type" content={`website`} />
-      <meta property="og:site_name" content="Manu Arora" />
+      <meta property="og:site_name" content="Jonathan Dunn" />
       <meta
         property="og:description"
         content={`A curated list of box shadows for TailwindCSS. Available in classes, JIT

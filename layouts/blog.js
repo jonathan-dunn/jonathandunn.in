@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function BlogLayout({ children, frontMatter }) {
   return (
     <Container
-      title={`${frontMatter.title} – Manu Arora`}
+      title={`${frontMatter.title} – Jonathan Dunn`}
       description={frontMatter.summary}
       image={`https://manuarora.in${frontMatter.image}`}
       date={new Date(frontMatter.publishedAt).toISOString()}
@@ -40,7 +40,7 @@ export default function BlogLayout({ children, frontMatter }) {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2 mb-8">
           <div className="flex items-center">
             <Image
-              alt="Manu Arora"
+              alt="Jonathan Dunn"
               height={24}
               width={24}
               src="/avatar.jpg"
@@ -48,7 +48,7 @@ export default function BlogLayout({ children, frontMatter }) {
             />
             <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">
               {frontMatter.by}
-              {"Manu Arora / "}
+              {"Jonathan Dunn / "}
               {format(parseISO(frontMatter.publishedAt), "MMMM dd, yyyy")}
             </p>
           </div>

@@ -26,7 +26,7 @@ export default function Home() {
     console.log(data);
     var options = {
       key: process.env.RAZORPAY_KEY, // Enter the Key ID generated from the Dashboard
-      name: "Manu Arora Pvt Ltd",
+      name: "Jonathan Dunn Pvt Ltd",
       currency: data.currency,
       amount: data.amount,
       order_id: data.id,
@@ -38,7 +38,7 @@ export default function Home() {
         alert(response.razorpay_signature);
       },
       prefill: {
-        name: "Manu Arora",
+        name: "Jonathan Dunn",
         email: "manuarorawork@gmail.com",
         contact: "9999999999",
       },
